@@ -2,9 +2,9 @@ print("Question 1")
 print("Answer")
 
 info = {
-    "name": "Ansh Agarwal",
-    "age": 18,
-    "gender": "Male"
+    "name": "Ananya Raj",
+    "age": 20,
+    "gender": "Female"
 }
 
 print(info)
@@ -13,9 +13,9 @@ print("\nQuestion 2")
 print("Answer")
 
 info = {
-    "name": "Ansh Agarwal",
-    "age": 18,
-    "gender": "Male"
+    "name": "Ananya Raj",
+    "age": 20,
+    "gender": "Female"
 }
 
 print(info["name"])
@@ -25,9 +25,9 @@ print("\nQuestion 3")
 print("Answer")
 
 info = {
-    "name": "Ansh Agarwal",
-    "age": 18,
-    "gender": "Male"
+    "name": "Ananya Raj",
+    "age": 20,
+    "gender": "Female"
 }
 
 print(list(info.values()))
@@ -37,12 +37,12 @@ print("\nQuestion 4")
 print("Answer")
 
 info = {
-    "name": "Ansh Agarwal",
-    "age": 18,
-    "gender": "Male"
+    "name": "Ananya Raj",
+    "age": 20,
+    "gender": "Female"
 }
 
-info["age"] = 19
+info["age"] = 21
 print(info)
 
 
@@ -50,9 +50,9 @@ print("\nQuestion 5")
 print("Answer")
 
 info = {
-    "name": "Ansh Agarwal",
-    "age": 18,
-    "gender": "Male"
+    "name": "Ananya Raj",
+    "age": 20,
+    "gender": "Female"
 }
 
 for key in info:
@@ -74,9 +74,9 @@ print(student)
 print("\nQuestion 7")
 print("Answer")
 
-d1 = {"name": "Ansh"}
-d2 = {"age": 18}
-d3 = {"gender": "Male"}
+d1 = {"name": "Ananya Raj"}
+d2 = {"age": 20}
+d3 = {"gender": "Female"}
 
 combined = {
     "dict1": d1,
@@ -91,7 +91,7 @@ print("\nQuestion 8")
 print("Answer")
 
 list1 = ["name", "age", "gender"]
-list2 = ["Ansh", 18, "Male"]
+list2 = ["Ananya Raj", 20, "Female"]
 
 result = dict(zip(list1, list2))
 print(result)
