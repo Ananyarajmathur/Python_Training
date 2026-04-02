@@ -23,7 +23,7 @@ total(1, 2, 3, 4)
 def info(**kwargs):
     print(kwargs)
 
-info(name="Ansh", course="Python")
+info(name="Ananya Raj", course="Python")
 
 
 #5. Write a python program to create a function which expects a list as an argument.
